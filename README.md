@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
 
+Mantiene en una base de datos mongodb, una lista de libros. La base de datos se llama mean-anguar5 y la coleccion books
+Front y Back estan preparados para CRUD, create, read, update y delete.
+
+##Elementos de Angular utilizados:
+- Observable
+- HttpClient
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -13,6 +20,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Ejecución en local
+
+
+-  Arrancar mongod, existe un .bat en d:\mongodb 
+-  Run `nmp start`, que internamente hace `ng build` y a continuación `node ./bin/www`. Ver archivo packaje.json.
+-  Para entrar en la aplicación http://localhost:3000
 
 ## Running unit tests
 
