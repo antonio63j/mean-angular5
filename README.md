@@ -2,8 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
 
-Mantiene en una base de datos mongodb, una lista de libros. La base de datos se llama mean-anguar5 y la coleccion books
-Front y Back estan preparados para CRUD, create, read, update y delete.
+Mantiene en una base de datos mongodb, una lista de libros. La base de datos se llama mean-angular5 y la coleccion books
+La app esta preparada para CRUD, create, read, update y delete.
+
+####Objetivos
+- Corregir la actualización de libro
+- En una segunda fase se va a separar front y back.
 
 ##Elementos de Angular utilizados:
 - Observable
@@ -25,8 +29,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 
 -  Arrancar mongod, existe un .bat en d:\mongodb 
--  Run `nmp start`, que internamente hace `ng build` y a continuación `node ./bin/www`. Ver archivo packaje.json.
--  Para entrar en la aplicación http://localhost:3000
+-  Run `nmp start`
 
 ## Running unit tests
 
